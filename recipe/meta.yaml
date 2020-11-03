@@ -1,5 +1,5 @@
 {% set name = "pysignal" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.4" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PySignal-{{ version }}.tar.gz
-  sha256: 0140bcf675099396f87745725a7cc7f1e37b1ebeb83fbc801681a56d22867695
+  url: https://github.com/dgovil/{{ name }}/archive/{{ version }}.tar.gz
+  sha256: 499c9ae52a0ab83173fa469ffc86a32cc97ff51bc840f184d83bde754746425a
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ about:
   home: https://github.com/dgovil/PySignal
   license: MIT
   license_family: MIT
-  license_file: LICENSE.txt
+  license_file: LICENSE
   summary: Python Signal Library to mimic the Qt Signal system for event driven connections
 
   description: |

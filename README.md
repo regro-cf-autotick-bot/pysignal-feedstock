@@ -5,9 +5,11 @@ Home: https://github.com/dgovil/PySignal
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pysignal-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python Signal Library to mimic the Qt Signal system for event driven connections
+
+Development: https://github.com/dgovil/PySignal
 
 A Qt style signal implementation that doesn't require QObjects.
 This supports class methods, functions, lambdas and partials.
